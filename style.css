@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(43, 43, 43);
+}
+
+.app{
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+    border-bottom: 1px solid #ddd;
+}
+
+.quiz{
+    padding: 15px 15px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: rgb(43, 43, 43);
+    margin-bottom: 15px;
+}
+
+.quiz .btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+    color: #222222;
+    background: white;
+    transition: all 0.2s;
+}
+
+.quiz .btn:hover:not([disabled]){
+    color: white;
+    background: #222222;
+}
+
+.quiz .btn:disabled{
+    cursor: no-drop;
+}
+
+.quiz #next-btn{
+    display: none;
+    width: 150px;
+    padding: 10px;
+    margin: 20px 0 0 auto;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background: #097fa3;
+    cursor: pointer;
+}
+
+.quiz .correct{
+    background: #9aeabc;
+}
+.quiz .incorrect{
+    background: #ff9393;
+}
